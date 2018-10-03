@@ -1,0 +1,52 @@
+body {
+    background-color: coral;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Mali', cursive;
+}
+
+i {
+    transform: translate(50%, 50%);
+    font-size: 50px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.image-carousel {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    height: 500px;
+    width: 700px
+}
+
+.image {
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    transition: 0.5s;
+}
+
+.center {
+    z-index: 100;
+    height: 300px;
+    width: 300px;
+    transform: translate(200px, 100px);
+}
+
+.left {
+    transform: translate(50px, 200px);
+}
+
+.right {
+    transform: translate(550px, 200px);
+}
